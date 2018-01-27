@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "lint": "eslint --ext js --ext jsx src",
-    "format": "prettier \"src/**/*.{js,jsx}\" --write"
+    "format": "prettier 'src/**/*.{js,jsx}' --write",
+    "precommit": "npm run lint && npm run format"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3",
     "prettier": "^1.10.2"
   }
 }
