@@ -1,0 +1,26 @@
+{
+  "name": "git-hooked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint --ext js --ext jsx src",
+    "format": "prettier \"src/**/*.{js,jsx}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyemorehouse/git-hooked.git"
+  },
+  "author": "Emily Morehouse",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/emilyemorehouse/git-hooked/issues"
+  },
+  "homepage": "https://github.com/emilyemorehouse/git-hooked",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "prettier": "^1.10.2"
+  }
+}
