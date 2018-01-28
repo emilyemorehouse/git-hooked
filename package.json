@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "lint": "eslint --ext js --ext jsx src",
-    "format": "prettier \"src/**/*.{js,jsx}\" --write"
+    "format": "prettier \"src/**/*.{js,jsx}\" --write",
+    "install": "chmod +x bin/install-hooks.sh; bin/install-hooks.sh"
   },
   "repository": {
     "type": "git",

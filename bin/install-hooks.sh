@@ -1,0 +1,1 @@
+find .git/hooks -type lf -exec rm {} + && find .hooks -type f -exec ln -sf ../../{} .git/hooks/ \; && find .git/hooks -type lf -exec chmod +x {} + && find .hooks -type lf -exec chmod +x {} +
