@@ -1,6 +1,6 @@
 # Git Hooked
 
-This repository is meant to be a companion to a blog post (that is yet to be published).
+This repository is a companion to my blog post, [Git Hooked](http://emilyemorehouse.com/blog/012-git-hooked/).
 
 There is a branch for each option presented in the post for managing Git hooks:
 
